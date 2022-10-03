@@ -7,16 +7,16 @@ Change your tab/chat/tag name displays.
 
 ## Commands
 
-* `/nick <name>`
+* `/nick <name>`  
 set your nickname to `name`.
 
-* `/unnick`
+* `/unnick`  
 reset your nickname.
 
 ## Permissions
 
-* `nickname.nick`
+* `nickname.nick`  
 use /nick
 
-* `nickname.unnick`
+* `nickname.unnick`  
 use /unnick
