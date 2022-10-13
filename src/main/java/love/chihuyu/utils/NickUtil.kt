@@ -16,7 +16,7 @@ object NickUtil {
         player.isCustomNameVisible = true
 
         NickAPI.nick(player, name)
-        NickAPI.setGameProfileName(player, name)
+        if (plugin.config.getBoolean("profileName")) NickAPI.setGameProfileName(player, name)
 
         plugin.config.set(player.uniqueId.toString(), name)
         plugin.saveConfig()
